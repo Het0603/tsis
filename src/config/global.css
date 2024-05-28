@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fontConfig/Montserrat/static/Montserrat-Light.ttf") format("ttf"),
+    url("./fontConfig/Montserrat/static/Montserrat-Light.ttf") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fontConfig/Montserrat/static/Montserrat-Medium.ttf") format("ttf"),
+    url("./fontConfig/Montserrat/static/Montserrat-Medium.ttf") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+/*noinspection CssInvalidPropertyValue*/
+.w-crisp-edges {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
